@@ -1,8 +1,8 @@
 package ru.job4j.pooh;
 
 public enum RequestType {
-    GET ("GET"),
-    POST ("POST");
+    GET("GET"),
+    POST("POST");
 
     private final String req;
 
@@ -13,5 +13,4 @@ public enum RequestType {
     public String getReq() {
         return req;
     }
-
 }
